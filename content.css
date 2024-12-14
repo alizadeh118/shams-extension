@@ -1,0 +1,19 @@
+@import '/node_modules/tippy.js/dist/tippy.css';
+
+.tippy-box[data-theme~='shams'] {
+    background-color: #ffcc33;
+    color: #333;
+}
+
+.tippy-box[data-theme~='shams'][data-placement^='top'] > .tippy-arrow::before {
+    border-top-color: #ffcc33;
+}
+.tippy-box[data-theme~='shams'][data-placement^='bottom'] > .tippy-arrow::before {
+    border-bottom-color: #ffcc33;
+}
+.tippy-box[data-theme~='shams'][data-placement^='left'] > .tippy-arrow::before {
+    border-left-color: #ffcc33;
+}
+.tippy-box[data-theme~='shams'][data-placement^='right'] > .tippy-arrow::before {
+    border-right-color: #ffcc33;
+}

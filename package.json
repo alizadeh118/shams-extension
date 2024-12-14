@@ -1,0 +1,19 @@
+{
+  "name": "Shams",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vite-plugin-web-extension": "^4.0.0",
+    "webextension-polyfill": "^0.10.0"
+  },
+  "dependencies": {
+    "moment-guess": "^1.2.4",
+    "tippy.js": "^6.3.7"
+  }
+}
